@@ -47,13 +47,4 @@ public class SaleMinDTO {
 		return name;
 	}
 
-	@Override
-	public String toString() {
-		return "SaleMinDTO{" +
-				"id=" + id +
-				", amount=" + amount +
-				", date=" + date +
-				", name='" + name + '\'' +
-				'}';
-	}
 }
